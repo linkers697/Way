@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/y9m8b1.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/hq5sj4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/y9m8b1.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/hq5sj4.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/y9m8b1.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/y9m8b1.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/y9m8b1.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hq5sj4.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hq5sj4.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/hq5sj4.jpg"
 
 
 def time_to_seconds(time):
@@ -121,5 +121,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
