@@ -36,15 +36,15 @@ API_KEY = getenv("API_KEY", 'NxGBNexGenBotsda64ea') # youtube song api key, gene
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/UnknownQuery",
+    "https://t.me/AuraPromotion",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AuraPromotion")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/friends_hindi_chatting_grp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EvelanMusiCUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+2vDk6IHw8u8wODdl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
